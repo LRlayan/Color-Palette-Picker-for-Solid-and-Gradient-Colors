@@ -1,0 +1,226 @@
+:root{
+    --red:red;
+    --dark-red:#800000;
+    --light-red:#FF0000;
+    --green:green;
+    --light-green:#00FF1C;
+    --dark-green:#003B07;
+    --purple:purple;
+    --light-purple:#FF00FA;
+    --dark-purple:#3D003C;
+    --indigo:indigo;
+    --yellow:yellow;
+    --light-yellow:#FFE900;
+    --dark-yellow:#635B00;
+    --black:black;
+    --orange:orange;
+    --light-orange:#FF6000;
+    --dark-orange:#A13C00;
+    --blue:#0139FF;
+    --dark-blue:#001766;
+    --light-blue:#0080FF;
+    --pink:pink;
+    --light-pink:#FF01E8;
+    --dark-pink:#800074;
+    --brown:brown;
+    --light-brown:#FF8E2D;
+    --dark-brown:#47280C;
+    --gray:gray;
+    --cool-gray:#7F82BB;
+    --white:white;
+    --lavender:lavender;
+}
+
+.solidColor{
+    width: 268px;
+    aspect-ratio: 1/2;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.gradientColor{
+    position: absolute;
+    border: 1px solid black;
+    right: -20.3rem;
+    width: 268px;
+    aspect-ratio: 1/2;
+    border-radius: 20px;
+    margin-top: -18px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border: 1px solid black;
+    width: 600px;
+    height: 405px;
+    border-radius: 20px;
+}
+
+.container{
+    position: absolute;
+    right: 23rem;
+    top: 3rem;
+    padding-top: 45px;
+    padding-left: 32px;
+    padding-bottom: 45px;
+}
+
+.sub1{
+    width: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    cursor: copy;
+}
+
+#cl1{
+    background-color: var(--light-red);
+}
+
+#cl2{
+    background-color: var(--red);
+}
+
+#cl3{
+    background-color: var(--dark-red);
+}
+
+#cl4{
+    background-color: var(--light-green);
+}
+
+#cl5{
+    background-color: var(--green);
+}
+
+#cl6{
+    background-color: var(--dark-green);
+}
+
+#cl7{
+    background-color: var(--purple);
+}
+
+#cl8{
+    background-color: var(--light-purple);
+}
+
+#cl9{
+    background-color: var(--dark-purple);
+}
+
+#cl10{
+    background-color: var(--indigo);
+}
+
+#cl11{
+    background-color: var(--light-yellow);
+}
+
+#cl12{
+    background-color: var(--yellow);
+}
+
+#cl13{
+    background-color: var(--dark-yellow);
+}
+
+#cl14{
+    background-color: var(--light-orange);
+}
+
+#cl15{
+    background-color: var(--orange);
+}
+
+#cl16{
+    background-color: var(--dark-orange);
+}
+
+#cl17{
+    background-color: var(--light-blue);
+}
+
+#cl18{
+    background-color: var(--blue);
+}
+
+#cl19{
+    background-color: var(--dark-blue);
+}
+
+#cl20{
+    background-color: var(--light-pink);
+}
+
+#cl21{
+    background-color: var(--pink);
+}
+
+#cl22{
+    background-color: var(--dark-pink);
+}
+
+#cl23{
+    background-color: var(--light-brown);
+}
+
+#cl24{
+    background-color: var(--brown);
+}
+
+#cl25{
+    background-color: var(--dark-brown);
+}
+
+#cl26{
+    background-color: var(--gray);
+}
+
+#cl27{
+    background-color: var(--cool-gray);
+}
+
+#cl28{
+    background-color: var(--white);
+    border: 1px solid #7F82BB;
+}
+
+#cl29{
+    background-color: var(--lavender);
+}
+
+#cl30{
+    background-color: var(--black);
+}
+
+
+.locationContainer{
+    position: absolute;
+    left: 4rem;
+    bottom: 25px;
+}
+
+.optionContainer{
+    position: absolute;
+    top: 8px;
+    left: 14rem;
+}
+
+.loc{
+    margin-left: 25px;
+}
+
+.radioBtnLabel{
+    font-family: "Bodoni MT";
+    font-size: 20px;
+}
+
+input[type="radio"]:disabled + label {
+    color: #aaa;
+}
+
+input[type="radio"]:enabled + label {
+    color: #000000;
+}
